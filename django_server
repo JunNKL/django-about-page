@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20260528214652
+Start time: 20260529000903
 Username: LAPTOP-HM4MRE0H\ADMIN
 RunAs User: LAPTOP-HM4MRE0H\ADMIN
 Configuration Name: 
 Machine: LAPTOP-HM4MRE0H (Microsoft Windows NT 10.0.26200.0)
-Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
-Process ID: 29116
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 30188
 PSVersion: 5.1.26100.8457
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
@@ -16,13 +16,23 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
-Transcript started, output file is .\django_server
+Transcript started, output file is django_server
 PS D:\FCoursera\django_lab\myproject> python manage.py runserver --noreload
+Performing system checks...
 
+System check identified no issues (0 silenced).
+May 29, 2026 - 00:09:05
+Django version 6.0.5, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server inste
+ad.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
 PS D:\FCoursera\django_lab\myproject> TerminatingError(): "The pipeline has been stopped."
 >> TerminatingError(): "The pipeline has been stopped."
 PS D:\FCoursera\django_lab\myproject> Stop-Transcript
 **********************
 Windows PowerShell transcript end
-End time: 20260528214749
+End time: 20260529001045
 **********************
