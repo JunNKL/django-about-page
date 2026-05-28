@@ -1,0 +1,28 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260528214652
+Username: LAPTOP-HM4MRE0H\ADMIN
+RunAs User: LAPTOP-HM4MRE0H\ADMIN
+Configuration Name: 
+Machine: LAPTOP-HM4MRE0H (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 29116
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\django_server
+PS D:\FCoursera\django_lab\myproject> python manage.py runserver --noreload
+
+PS D:\FCoursera\django_lab\myproject> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\FCoursera\django_lab\myproject> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20260528214749
+**********************
